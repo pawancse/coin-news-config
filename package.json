@@ -1,0 +1,33 @@
+{
+  "name": "coin-news-config",
+  "version": "0.0.1",
+  "description": "Configuration and Setting for CoinNews",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pawancse/coin-news-config.git"
+  },
+  "keywords": [
+    "coin",
+    "news",
+    "bitcoin",
+    "ethereum"
+  ],
+  "author": "Pawan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pawancse/coin-news-config/issues"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "express-jwt": "^6.0.0",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1"
+  }
+}
